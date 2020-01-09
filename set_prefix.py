@@ -1,7 +1,6 @@
 import glob
 import os
 
-#path = "./prefixtest"
 path = input("prefixを付けたいディレクトリを入力：")
 pfx  = input("prefixを入力：")
 files = glob.glob(path+"/*")
